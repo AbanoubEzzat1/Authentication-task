@@ -8,8 +8,8 @@ class UserModel {
 
   UserModel.fromJson(Map<String, dynamic> json) {
     userName = json['userName'];
-    userName = json['userEmail'];
-    userName = json['userPassword'];
+    userEmail = json['userEmail'];
+    userPassword = json['userPassword'];
     uId = json['uId'];
   }
 
